@@ -5,6 +5,7 @@ import Social from './components/Social';
 import Quote from './components/Quote';
 // import Scroll from './components/Scroll';
 import CardList from './components/CardList';
+import Contact from './components/Contact';
 import './styles/styles.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
             <Social />
             <Quote />
             <CardList />
+            <Contact />
         </div>
     </body>
   );

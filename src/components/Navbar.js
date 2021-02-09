@@ -5,13 +5,13 @@ const Navbar = () => {
 
   return (
     <header>
-      <div class="wrapper">
-        <div class="neon-wrapper">
-            <span class="neon-text" >D|G</span>
-            <span class="gradient"></span>
-            <span class="dodge"></span>
+      <div className="wrapper">
+        <div className="neon-wrapper">
+            <span className="neon-logo">gaschdangit</span>
+            <span className="gradient"></span>
+            <span className="dodge"></span>
         </div>
-        <h1 class="name">gaschdangit</h1>
+        {/* <h1 className="name">gaschdangit</h1> */}
       </div>
     </header>
   )

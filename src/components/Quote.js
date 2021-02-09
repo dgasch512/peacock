@@ -3,10 +3,10 @@ import '../styles/styles.css';
 
 const Quote = () => {
   return (
-    <div class="quote-section">
+    <div className="quote-section">
       <div id="quote-1"></div>
       <div id="quote-2">
-        <blockquote class="quote">{`Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut magni accusantium quidem.\n -This Guy`}</blockquote>
+        <p className="quote">{`Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut magni accusantium quidem.\n -This Guy`}</p>
       </div>
   </div>
   )
