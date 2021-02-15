@@ -3,12 +3,12 @@ import '../styles/styles.css';
 
 const Social = () => {
   return (
-    <ul class="social">
-      <i class="fab fa-twitter"></i>
-      <i class="fab fa-google-plus-g"></i>
-      <i class="fab fa-facebook-f"></i>
-      <i class="fab fa-github"></i>
-      <i class="fab fa-instagram"></i>
+    <ul className="social">
+      <i className="fab fa-twitter"></i>
+      <i className="fab fa-google-plus-g"></i>
+      <i className="fab fa-facebook-f"></i>
+      <i className="fab fa-github"></i>
+      <i className="fab fa-instagram"></i>
     </ul>
   )
 }

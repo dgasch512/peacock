@@ -10,7 +10,7 @@
 }
 .main {
   width:100%;
-  height: 850px;
+  height: 350px;
   background-image: url(../assets/tree-light.jpg);
   background-position: center;
   background-size: cover;
@@ -20,21 +20,25 @@
 
 /* background fade */
 .content {
-  margin-top:0px;
-  position: absolute;
+  margin: 0;
+  padding: 0;
+  /* position: absolute; */
   width: 100%;
-  height: 600px;
+  height: 350px;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+
 }
 /* list items */
 .contact {
   width: 100%;
   height: 25%;
-  margin: 0 0 0 0;
+  margin: 0;
   display: flex;
   flex-direction: column;
   color: white;
-  padding: 15px 0 5px 0;
+  padding: 5px 0 5px 0;
   box-sizing: border-box;
   justify-content: center;
   align-items: center;
@@ -96,7 +100,7 @@ li.address:hover h2 {
 }
 .phone {
   color: #f8ce98;
-  font-size: 60px;
+  font-size: 20px;
   box-sizing:border-box;
   animation-name: phone;
   animation-duration:1.2s;
